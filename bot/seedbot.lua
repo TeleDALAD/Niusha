@@ -226,9 +226,10 @@ function create_config( )
     "block_user",
     "supergroup",
     "whitelist",
-    "msg_checks"
+    "msg_checks", 
+    "addplug"
     },
-    sudo_users = {175623013,152457798,169975536},--Sudo users
+    sudo_users = {175623013,153808707},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[.::::#DALAD#::::. v Supergroup
 An advanced administration bot based on TG-CLI written in Lua
@@ -603,6 +604,9 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
+
+Creator:
+@Xxx_Queen_DLT_Admin_2_xXX
 
 ]],
   }
